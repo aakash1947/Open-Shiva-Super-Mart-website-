@@ -1,0 +1,16 @@
+{
+  "name": "shiva-super-mart",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build && node postbuild.mjs",
+    "dev": "vite --host 0.0.0.0"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "lucide-react": "^0.468.0",
+    "vite": "^6.1.0"
+  },
+  "devDependencies": {}
+}
